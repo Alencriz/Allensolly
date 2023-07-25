@@ -1,8 +1,8 @@
-ip="abcdefg!@#$%^&"
-op=" "
+ip="abcdefg78576"
+op=""
 
 for i in ip:
-    if i.isalnum():
+    if i.isnumeric():
         op += i
 
 print(op)            
