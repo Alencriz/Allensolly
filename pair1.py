@@ -7,7 +7,6 @@ for i in range(len(numbers)):
         
         product = num1 * num2
         total_sum = num1 + num2
-
         
         if product % 2 == 0 and total_sum % 2 != 0:
             print(f"Pair: ({num1}, {num2}), Product: {product}, Sum: {total_sum}")
