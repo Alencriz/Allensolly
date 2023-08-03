@@ -4,5 +4,5 @@ for i in range (1,a+1):
         if j==1 or j==i:
             print(1,end=" ")
         else:
-            print(2,end=" ")    
+            print(a+i-1,end=" ")    
     print()        
